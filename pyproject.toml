@@ -3,7 +3,7 @@ name = "ccri-task"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=6.29.5",
     "pyscenic>=0.12.1",
@@ -68,7 +68,9 @@ ignore = [
   "D206",
   "W191",
   #
-  "TCH002"
+  "TCH002",
+  #
+  "RUF015",
 ]
 
 [tool.ruff.lint.pycodestyle]
