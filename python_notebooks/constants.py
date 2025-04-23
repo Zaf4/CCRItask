@@ -1,0 +1,20 @@
+# dictionary to map sample identifiers to sample properties
+files = {
+    "GSM4446535": "week8_001",
+    "GSM4446536": "week9_063",
+    "GSM4446537": "week6_088",
+    "GSM4446538": "week14_123",
+    "GSM4446539": "week12_124",
+    "GSM4446540": "week8_125",
+    "GSM4446541": "week9_005",
+    "GSM4446542": "week11_006",
+    "GSM4446543": "week9_007",
+    "GSM4734601": "week8_016",
+    "GSM4734602": "week9_031_paraganglia",
+    "GSM4734603": "week12_035",
+    "GSM4734604": "week12_036_extraadrenal",
+}
+
+full_paths = {}
+for key in files:
+    full_paths[key] = f""
